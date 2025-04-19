@@ -1,0 +1,45 @@
+====================================================================================
+
+Instalação do monitor virtual
+
+====================================================================================
+Abrir CMD como Administrador: cd "colar a RAIZ da pasta"
+====================================================================================
+Comando 32bits(X86): deviceinstaller install usbmmidd.inf usbmmidd
+Comando 64bits: deviceinstaller64 install usbmmidd.inf usbmmidd
+====================================================================================
+
+====================================================================================
+Para adicionar um monitor
+Execute como administrador o arquivo: mais_um_monitor.bat
+====================================================================================
+
+Para remover um monitor
+Execute como administrador o arquivo: menos_um_monitor.bat
+====================================================================================
+
+
+====================================================================================
+Abrir CMD como Administrador: cd "colar a RAIZ da pasta"
+====================================================================================
+
+Ativar Monitor Virtual:
+Comando 32bits(X86): deviceinstaller enableidd 1
+Comando 64bits: deviceinstaller64 enableidd 1
+====================================================================================
+
+
+Desativar Monitor Virtual:
+Comando 32bits(X86): deviceinstaller enableidd 0
+Comando 64bits: deviceinstaller64 enableidd 0
+====================================================================================
+
+
+Desinstalar:
+Comando 32bits(X86):deviceinstaller stop usbmmidd
+Comando 32bits(X86):deviceinstaller remove usbmmidd 
+====================================================================================
+Comando 64bits: deviceinstaller64 stop usbmmidd
+Comando 64bits: deviceinstaller64 remove usbmmidd
+====================================================================================
+
